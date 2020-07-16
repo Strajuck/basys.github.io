@@ -7,17 +7,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 
-
-
-</head>
-<body>
-
-<nav class="navbar navbar-expand-md fixed-top">
+<div>
+<nav class="navbar navbar-light navbar-expand-md fixed-top">
 <div class="container">
-  <a class="navbar-brand" href="#"><img class="logo_basys" src="./logo_gross.png" alt="Basys Beratungsgesellschaft für angewandte Systemforschung" height="20"></a>
+  <a class="navbar-brand" href="main.html"><img class="logo_basys" src="./logo_gross.png" alt="Basys Beratungsgesellschaft für angewandte Systemforschung" height="20"></a>
   <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
-    <span class="navbar-toggler-icon "></span>
+    <span class="" role="button" ><i class="fa fa-bars" aria-hidden="true" style="color:#00AA98"></i></span>
   </button>
    <div class="collapse navbar-collapse" id="main-navigation">
     <ul class="navbar-nav">
@@ -35,9 +32,10 @@
           ÜBER UNS
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="team.html" style="font-weight: normal;">TEAM</a>
+         <a class="dropdown-item" href="basys.html" style="font-weight: normal;">BASYS</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="basys.html" style="font-weight: normal;">BASYS</a>
+             <a class="dropdown-item" href="team.html" style="font-weight: normal;">TEAM</a>
+          
         </div>
       </li>
 
@@ -48,7 +46,10 @@
   </div>
 </div>
 </nav>
+</div>
 
+</head>
+<body>
 
    
 
@@ -57,31 +58,34 @@
 
 <section><div class="basys_mobile"></div></section>
 
-  
-<div class="container features" style="padding-bottom: 3vw;">
-    <div><p class="ueber">Unsere Leistungen</p></div>    
-  <div class="row">
+ 
+<div class="container features d-none d-sm-block" style="padding-bottom: 3vw;">
+    <div><p class="ueber">Unsere Leistungen</p></div>   
+    
+    
+     <!-- Desktop -->
+    <div class="row">
       
-    <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+    <div class="col-lg-4 col-md-4 col-sm-12 text-center d-none d-sm-block">
       
         <a href="systemrechnungen.html"><img src="./pictures/Bild3.svg" class="img-fluid"  style="max-height: 15vw; vertical-align: middle"></a>
       <h3 class="caru_title">Systemrechnungen</h3>
       <p class="caru_absatz">Systemrechnungen sind Basis für Systembewertungen und Simulationen. Anknüpfungspunkte hierfür sind Standards für Satellitensysteme der Volkwirtschaftlichen Gesamtrechnungen und Statistiken..</p>
     </div>
-    <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+    <div class="col-lg-4 col-md-4 col-sm-12 text-center d-none d-sm-block">
       
       <a href="systembewertung.html"><img src="./pictures/Bild4.svg" class="img-fluid" style="max-height: 15vw; vertical-align: middle"></a>
       <h3 class="caru_title">Systembewertung</h3>
       <p class="caru_absatz">Systemprojektionen und Simulationen bauen auf demographischen Prognosen auf, die je nach Fragestellungen weitere Modelle einschließen.</p>
     </div>
-    <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+    <div class="col-lg-4 col-md-4 col-sm-12 text-center d-none d-sm-block">
       <a href="systementwicklung.html"><img src="./pictures/Bild5.svg" class="img-fluid"  style="max-height: 15vw; vertical-align: middle"></a>
       <h3 class="caru_title">Systementwicklung</h3>
       <p class="caru_absatz">Unsere Systementwicklungen bzw. -projektionen bauen auf aktuellen demographischen Prognosen auf, die je nach Fragestellungen weitere Modelle einschließen.</p>
     </div>
   </div> 
-  <div class="row">
-    <div class="col-lg-4 col-md-4 col-sm-12" style="background-color: white; box-shadow: 5px 5px 10px -1px rgba(173,173,173,0.32)">
+  <div class="row ">
+    <div class="col-lg-4 col-md-4 col-sm-12" style="background-color: white;box-shadow: 5px 5px 10px -1px rgba(173,173,173,0.32)">
       <ul class="list_leistung">
             <li>Erhebung, Aufbereitung, Zusammenführung von Daten</li>
             <li>Entwicklung und Analysen von Finanzierungskonzepten</li>
@@ -107,8 +111,32 @@
                 <li>Bedarfsermittlung und –prognosen</li>
                 <li>Szenarioanalysen</li>
             </ul>
-</div> 
-</div>
+</div>  </div> </div>
+    
+   <div class="container features d-block d-sm-none" style="padding-bottom: 3vw;"> 
+    <div><p class="ueber">Unsere Leistungen</p></div>   
+    <!-- Mobile -->
+  <div class="row d-block d-sm-none">
+      
+    <div class="col-lg-4 col-md-4 col-sm-12 text-center" style="box-shadow: 5px 5px 10px -1px rgba(173,173,173,0.32); ">
+      
+        <a href="systemrechnungen.html"><img src="./pictures/Bild3.svg" class="img-fluid"  style="max-height: 15vw; vertical-align: middle"></a>
+      <h3 class="caru_title">Systemrechnungen</h3>
+      <p class="caru_absatz" style="font-size: 15px; margin-left: 2vw; margin-right: 2vw; padding-bottom: 6vw;">Systemrechnungen sind Basis für Systembewertungen und Simulationen. Anknüpfungspunkte hierfür sind Standards für Satellitensysteme der Volkwirtschaftlichen Gesamtrechnungen und Statistiken..</p>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-12 text-center" style="box-shadow: 5px 5px 10px -1px rgba(173,173,173,0.32); padding-top: 6vw">
+      
+      <a href="systembewertung.html"><img src="./pictures/Bild4.svg" class="img-fluid" style="max-height: 15vw; vertical-align: middle"></a>
+      <h3 class="caru_title">Systembewertung</h3>
+      <p class="caru_absatz" style="font-size: 15px; margin-left: 2vw; margin-right: 2vw; padding-bottom: 6vw;">Systemprojektionen und Simulationen bauen auf demographischen Prognosen auf, die je nach Fragestellungen weitere Modelle einschließen.</p>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-12 text-center" style="box-shadow: 5px 5px 10px -1px rgba(173,173,173,0.32); padding-top: 3vw;">
+      <a href="systementwicklung.html"><img src="./pictures/Bild5.svg" class="img-fluid"  style="max-height: 15vw; vertical-align: middle"></a>
+      <h3 class="caru_title">Systementwicklung</h3>
+      <p class="caru_absatz" style="font-size: 15px; margin-left: 2vw; margin-right: 2vw; padding-bottom: 6vw;">Unsere Systementwicklungen bzw. -projektionen bauen auf aktuellen demographischen Prognosen auf, die je nach Fragestellungen weitere Modelle einschließen.</p>
+    </div>
+  </div>  </div> 
+
 
 
 
@@ -123,10 +151,18 @@
 
 
 
-    </div>
+   
 
 <script>
-   function scrollAppear(){
+    
+    jQuery(document).ready(function(){
+    function resizeForm(){
+        var width = (window.innerWidth > 0) ? window.innerWidth : document.documentElement.clientWidth;
+        if(width > 1024){
+                
+            
+            // Desktop
+    function scrollAppear(){
        var logo_basys = document.querySelector('.logo_basys');
        var logopos = logo_basys.getBoundingClientRect().top;
        var ding = document.querySelector('.basys_mobile');
@@ -143,9 +179,19 @@
    }}
    
    window.addEventListener('scroll', scrollAppear);
+        } else {
+            var logo_basys = document.querySelector('.logo_basys');
+            logo_basys.style.opacity = 1;
+        }    
+    }
+    window.onresize = resizeForm;
+    resizeForm();
+});
+   
     
 </script>
 </body>
+
 
 
 
@@ -165,8 +211,8 @@ basys@basys.de<br>
     </div>
     <div class="col-lg-4 col-md-4 col-sm-12">
       <div class="footer-copyright text-center"><ul class="footer-link">
-  <li class="footer-nav-item"><a href="#" style="font-family: Sarg; padding-right: 1vw; color: black">IMPRESSUM</a></li>
-  <li class="footer-nav-item"><a href="datenschutz.html" style="font-family: Sarg; padding-right: 1vw; color: black">DATENSCHUTZ</a></li>
+  <li class="footer-nav-item"><a href="Impressum.html" style=" padding-right: 1vw; color: #00AA98">IMPRESSUM</a></li>
+  <li class="footer-nav-item"><a href="datenschutz.html" style=" padding-right: 1vw; color: #00AA98">DATENSCHUTZ</a></li>
 </ul></div>
     </div>
   </div>

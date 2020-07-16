@@ -1,15 +1,14 @@
-//define font
-@font-face {
-  font-family: Sang;
-  src: local("Segoe UI"),
-       
+.navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 
+/////////////////////////////////////////
 body {
   padding: 0;
   margin: 0;
   background: #f2f6e9;
+
 }
 .main {
     
@@ -32,12 +31,12 @@ body {
 }
 .nav-link {
   margin-right: 1em !important;
-    font-family: Sang;
+
     color: darkgrey;
 }
 .nav-link:hover {
   color: #00AA98;
-font-family: Sang;
+
 }
 .navbar-collapse {
   justify-content: flex-end;
@@ -79,12 +78,8 @@ width: 40%;
   padding: 40px 0;
 }
 
-.typewriter {
-    padding-top: -10vw;
-    padding-left: 2vw;
-    font-family: Courier, monospace;
-	display: inline-block;
-}
+
+
 .text {
     padding-top: 10vw;
      font-size: 15px;
@@ -98,11 +93,12 @@ width: 40%;
     display: inline-block;
   	overflow: hidden;
   	letter-spacing: 2px;
- 	font-family: sans-serif;
+ 	
     font-size: 80px;
     font-weight: 700;
     color: white;
 }
+
 .typewriter-text {
     display: inline-block;
   	overflow: hidden;
@@ -116,14 +112,17 @@ width: 40%;
     box-sizing: border-box;
 }
 .halle {
-  background-image: url('./pictures/Bild1.png');
+  background-image: url('./pictures/Thomas/BASYS_Banner_mitLogo.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
+visibility:visible; 
     width: auto;
-    height: 10vw;
+    height: auto;
 }
-
+.bild {background-image: url('./pictures/Thomas/BASYS_Banner_mitLogo.jpg');
+width: auto;
+    height: auto;}
 .i {
     font-size: 50px;
 }
@@ -135,19 +134,19 @@ width: 40%;
 .plus {
      padding-top: 5vw;
     font-size: 40px;
-    font-family: Sang;
+
     font-weight: 700;
 }
 .counter {
     padding-top: 5vw;
     font-size: 40px;
-    font-family: Sang;
+    
     font-weight: 700;
 }
 
 .caru_title {
     color: #00AA98;
-    font-family: Sarg;
+   
     font-size-adjust: auto;
     font-size: 20px;
     margin-bottom: 1vw;
@@ -157,7 +156,7 @@ width: 40%;
     
 }
 .caru_absatz {
-    font-family: Sarg;
+    
      font-size: 18px;
     margin-top: 0.7vw;
     
@@ -167,7 +166,7 @@ caru_title::hoover {
 }
 .caru_link::hover {
     color: #00AA98;
-    font-family: Sarg;
+   
     font-size-adjust: auto;
     font-size: 20px;
     margin-bottom: 1vw;
@@ -177,7 +176,7 @@ caru_title::hoover {
 a{text-decoration: none !important}
 .ueber {
     color: darkgray;
-    font-family: Sarg;
+  
     font-size-adjust: auto;
     font-size: 25px;
     margin-left: vw;
@@ -257,43 +256,81 @@ position:absolute;
 
 
 .more {
-    font-family: Sarg;
+   
     font-weight:500;
-    text-decoration: underline;
+    text-decoration: none;
+    color: #00AA98;
+}
+
+.more:hover {
+    text-decoration: underline; 
+    color: #00AA98;
+}
+.more span {
+    display: inline-block;
+  transition: 0.6s ease-in;
+    
+    color: #00AA98;
+    font-style: italic;
+    padding-right: 0.4vw;
+    padding-top: 0.4vw;
+    height: 0.2vw;
+    width: 0.3vw;
+    }
+.more span:hover {
+ transform: translateX(50%);
+    }
+
+.fixed-top {
+    box-shadow: 5px 5px 10px -1px rgba(173,173,173,0.32);
+}
+
+.caru_absatz {
+       margin-left: 0vw;
+        margin-right: 0vw;
 }
 
 
 
+//Mobile
 
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 600px) {
+    .logo_basys {
+        visibility: visible;
+    }
+    .img-head {
+        visibility: hidden;
+    }
+     .page-footer {
+        padding: 0px 0 0px;
+    }
+    .sec_absatz { 
+    visibility: hidden;}
+    hr.rounded {
+      border-top: 2px solid #bbb;
+      border-radius: 1px;
+      visibility: visible;
+}
+    .caru_absatz {
+       margin-left: 2vw !important;
+        margin-right: 2vw !important;
+}
+}
+//Desktop
 
 @media (min-width: 768px) { 
-    .halle {
-       visibility: hidden; 
-        width: 0px;
-        height:0px;
-        padding: 0 0 0 0;
+     .img-head {
+        visibility: visible;
     }
+    hr.rounded {
+      border-top: 2px solid white;
+      border-radius: 1px;
+      visibility: hidden;
+}
+
+    
     .page-footer {
         padding: 30px 0 0px;
     }
-    .basys_mobile {
 
-        visibility: visible; !important
-        width: 1024px;
-        height: 108px;
-        margin-top: 60px;
-        background-image: url(./pictures/Hintergrund_992.png);
-    }
 }

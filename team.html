@@ -7,17 +7,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 
-
-
-</head>
-<body>
-
-<nav class="navbar navbar-expand-md fixed-top">
+<div>
+<nav class="navbar navbar-light navbar-expand-md fixed-top">
 <div class="container">
-  <a class="navbar-brand" href="#"><img class="logo_basys" src="./logo_gross.png" alt="Basys Beratungsgesellschaft für angewandte Systemforschung" height="20"></a>
+  <a class="navbar-brand" href="main.html"><img class="logo_basys" src="./logo_gross.png" alt="Basys Beratungsgesellschaft für angewandte Systemforschung" height="20"></a>
   <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
-    <span class="navbar-toggler-icon "></span>
+    <span class="" role="button" ><i class="fa fa-bars" aria-hidden="true" style="color:#00AA98"></i></span>
   </button>
    <div class="collapse navbar-collapse" id="main-navigation">
     <ul class="navbar-nav">
@@ -35,9 +32,10 @@
           ÜBER UNS
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="team.html" style="font-weight: bold;">TEAM</a>
+         <a class="dropdown-item" href="basys.html" style="font-weight: normal;">BASYS</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="basys.html" style="font-weight: normal;">BASYS</a>
+             <a class="dropdown-item" href="team.html" style="font-weight: bold;">TEAM</a>
+          
         </div>
       </li>
 
@@ -48,8 +46,10 @@
   </div>
 </div>
 </nav>
+</div>
 
-
+</head>
+<body>
    
 
 <section> <div class="halle"></div>
@@ -168,7 +168,15 @@
     </div>
 
 <script>
-   function scrollAppear(){
+    
+    jQuery(document).ready(function(){
+    function resizeForm(){
+        var width = (window.innerWidth > 0) ? window.innerWidth : document.documentElement.clientWidth;
+        if(width > 1024){
+                
+            
+            // Desktop
+    function scrollAppear(){
        var logo_basys = document.querySelector('.logo_basys');
        var logopos = logo_basys.getBoundingClientRect().top;
        var ding = document.querySelector('.basys_mobile');
@@ -185,12 +193,18 @@
    }}
    
    window.addEventListener('scroll', scrollAppear);
+        } else {
+            var logo_basys = document.querySelector('.logo_basys');
+            logo_basys.style.opacity = 1;
+        }    
+    }
+    window.onresize = resizeForm;
+    resizeForm();
+});
+   
     
 </script>
 </body>
-
-
-
 
 
 
@@ -207,8 +221,8 @@ basys@basys.de<br>
     </div>
     <div class="col-lg-4 col-md-4 col-sm-12">
       <div class="footer-copyright text-center"><ul class="footer-link">
-  <li class="footer-nav-item"><a href="#" style="font-family: Sarg; padding-right: 1vw; color: black">IMPRESSUM</a></li>
-  <li class="footer-nav-item"><a href="datenschutz.html" style="font-family: Sarg; padding-right: 1vw; color: black">DATENSCHUTZ</a></li>
+  <li class="footer-nav-item"><a href="Impressum.html" style=" padding-right: 1vw; color: #00AA98">IMPRESSUM</a></li>
+  <li class="footer-nav-item"><a href="datenschutz.html" style=" padding-right: 1vw; color: #00AA98">DATENSCHUTZ</a></li>
 </ul></div>
     </div>
   </div>
