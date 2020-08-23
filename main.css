@@ -10,9 +10,15 @@ body {
   background: #f2f6e9;
 
 }
-.main {
-    
-}
+
+.footer-link1 { 
+border-right:1px solid darkgrey;
+margin-right: 7px;
+padding-right: 10px;
+display: inline-block;
+margin-top: 5px;
+white-space: nowrap;
+color: darkgray;}
 .navbar-fixed-top {
     position:fixed !important;
 }
@@ -72,6 +78,13 @@ width: 40%;
   background-color: #f2f2f2;
   color: #111;
   padding: 60px 0 30px;
+}
+.mobile-footer {
+  background-color: #f2f2f2;
+  color: #111;
+    padding-top: 5vw;
+     padding-bottom: 5vw;
+  
 }
 .footer-copyright {
   color: #666;
