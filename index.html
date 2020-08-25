@@ -19,7 +19,7 @@
    <div class="collapse navbar-collapse" id="main-navigation">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="main.html" style="font-weight: normal; ">HOME</a>
+        <a class="nav-link" href="main.html" style="font-weight: bold; ">HOME</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="leistungen.html" style="font-weight: normal;">LEISTUNGEN</a>
@@ -40,7 +40,7 @@
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="kontakt.html" style="font-weight: bold;">KONTAKT</a>
+        <a class="nav-link" href="kontakt.html" style="font-weight: normal;">KONTAKT</a>
       </li>
     </ul>
   </div>
@@ -50,27 +50,14 @@
 
 </head>
 <body>
-<!--
-// Extra small devices (portrait phones, less than 576px)
-// default (max-width: 575px)-->
-
-<!--// Small devices (landscape phones, 576px and up)
-// (sm) small (min-width: 576px) and (max-width: 767px)-->
- 
-<!--// Medium devices (tablets, 768px and up)
-(md) medium (min-width: 768px) and (max-width: 991px) -->
-
-<!--// Large devices (desktops, 992px and up)
-(lg) large (min-width: 992px) and (max-width: 1199px) -->
-<div class="img-head">
- <img src="./pictures/BASYS_Banner_200_900.png" class="img-fluid d-none d-sm-block" alt="Responsive image" style="padding-top: 56px;">
-</div>  
-<!--// Extra large devices (large desktops, 1200px and up)
-(xl)-->
- <div class="img-head">
- <img src="./pictures/Thomas/BASYS_Banner_mitLogo.jpg" class="img-fluid d-none d-sm-block" alt="Responsive image" style="padding-top: 56px;">
+   
+<div class="img-head-md">
+ <img src="./pictures/BASYS_Banner_200_900.png" class="img-fluid" alt="Responsive image" style="padding-top: 56px;">
 </div>  
 
+<div class="img-head-lg">
+ <img src="./pictures/Thomas/BASYS_Banner_mitLogo.jpg" class="img-fluid" alt="Responsive image" style="padding-top: 56px;">
+</div>  
 
 <section><div class="basys_mobile"></div></section>
 
@@ -88,7 +75,7 @@
     <div class="col-lg-4 col-md-4 col-sm-12">
 
             <a class="caru_link" href="personalbedf.html"><img src="./pictures/grey500x300.jpeg" class="img-fluid"></a>
-            <a class="caru_link" href="personalbedf.html"><span class="caru_title">Personalbedarf in deutschen Krankenhäusern</span></a>
+            <a class="caru_link" href="personalbedf.html" ><span class="caru_title">Personalbedarf in deutschen Krankenhäusern</span></a>
           <p class="caru_absatz">In den letzten 20 Jahren erhöhte sich die Zahl der Ärzte in deutschen Krankhäusern von 107 Tsd. auf 186 Tsd. Demgegenüber sank die Zahl der nichtärztlichen Berufe geringfügig. Ist diese Entwicklung plausibel?<br><a class="more" href="personalbedf.html">Mehr <span>&#62;</span></a></p>
         </div>
             <div class="col-lg-4 col-md-4 col-sm-12">
@@ -119,13 +106,13 @@
 
             <a class="caru_link" href="platzhalter.html"><img src="./pictures/grey500x300.jpeg" class="img-fluid"></a>
             <a class="caru_link" href="platzhalter.html"><span class="caru_title">Vergütung von Prozessinnovationen</span></a>
-          <p class="caru_absatz">Die Gesetzliche Krankenversicherung in Deutschland finanziert seit fünf Jahren Projekte zur Verbesserung der Gesundheitsversorgung. Mittlerweile gibt es in vielen Versorgungsbereichen Prozessinnovationen, welche die Versorgungsketten besser verknüpfen. Der Erfolg der Projekte hängt nicht zuletzt von der Ausgestaltung der Vergütung für die neuen Versorgungsformen ab.<br><a class="more" href="platzhalter.html">Mehr <span>&#62;</span></a></p>
+          <p class="caru_absatz">Die Gesetzliche Krankenversicherung in Deutschland finanziert seit fünf Jahren Projekte zur Verbesserung der Gesundheitsversorgung. Mittlerweile gibt es in vielen Versorgungsbereichen Prozessinnovationen, welche die Versorgungsketten besser verknüpfen. .<br><a class="more" href="platzhalter.html">Mehr <span>&#62;</span></a></p>
         </div>
             <div class="col-lg-4 col-md-4 col-sm-12">
 
             <a class="caru_link" href="platzhalterplatzhalter.html"><img src="./pictures/grey500x300.jpeg" class="img-fluid"></a>
             <a class="caru_link" href="platzhalter.html"><span class="caru_title">Ungleiche Lebenserwartung in Bayern: Healthy-Migrant-Effekt?</span></a>
-          <p class="caru_absatz">Der Freistaat Bayern nimmt bei Ländervergleichen der Lebenserwartung regelmäßig eine relativ günstige Position ein, wobei die Ungleichheiten im Lande aber recht deutlich sind. Sind die Abwanderer gesünder als die Daheimgebliebenen? Wie lässt sich die Abwanderung stoppen und welche Herausforderungen ergeben sich für die Gesundheitspolitik?<br><a class="more" href="platzhalter.html">Mehr <span>&#62;</span></a></p>
+          <p class="caru_absatz">Der Freistaat Bayern nimmt bei Ländervergleichen der Lebenserwartung regelmäßig eine relativ günstige Position ein, wobei die Ungleichheiten im Lande aber recht deutlich sind. Sind die Abwanderer gesünder als die Daheimgebliebenen? <br><a class="more" href="platzhalter.html">Mehr <span>&#62;</span></a></p>
         </div>
       </div> 
 
@@ -293,7 +280,6 @@
   </div> 
  
 
-
  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
@@ -302,7 +288,7 @@
 
 
 
-    </div>
+
 
 <script>
     
@@ -344,24 +330,21 @@
 </body>
 
 
-
-
-
-<footer class="mobile-footer">
-    <div class="container d-block d-sm-none" style="padding-top: 0; margin-top: 0;">
+<footer class="mobile-footer d-block d-sm-none">
+    <div class="container" style="padding-top: 0; margin-top: 0;">
     
     <div>
-			<a class="footer-link1" href="main.html" sryle="border-left:1px solid;">Homepage</a>
+			<a class="footer-link1" href="main.html" sryle="border-left:1px solid;">Home</a>
 			<a class="footer-link1" href="datenschutz.html" d>Datenschutz</a>
 			<a class="footer-link1" href="Impressum.html">Impressum</a>
-			<a class="footer-link1" href="kontakt.html">Kontakt</a>
-			<a class="footer-link1" href="leistungen.html" >Leistungen</a>
-        <div class="mobile" style="color: grey;">Copyright © 2020 Basys GmbH</div>
+			
+			
+        <div class="mobile" style="color: darkgrey; margin-top: 2vw">Copyright © 2020 BASYS GmbH</div>
 		</div></div></footer>
-    <footer class="page-footer  d-none d-sm-block">
+    <footer class="page-footer  d-none d-sm-block" style="padding: 0; padding-top: 1vw;">
  <!-- Desktop -->
-  <div class="container ">
-    <section><div><p class="ueber">Kontakt</p></div></section>    
+  <div class="container">
+    <section><div><p class="ueber" style="padding-bottom: 0; margin-bottom: 1vw;;">Kontakt</p></div></section>    
     <div class="row">
       <div class="col-lg-8 col-md-8 col-sm-12">
           <p>BASYS<br>
@@ -378,6 +361,6 @@ basys@basys.de<br>
     </div>
   </div>
 
-  <div class="footer-copyright text-center">© 2020 Copyright by BASYS</div>
+  <div class="footer-copyright text-center" style="padding-bottom: 1vw; padding-top: 1vw;">© 2020 Copyright by BASYS</div>
 </div> 
 </footer>
