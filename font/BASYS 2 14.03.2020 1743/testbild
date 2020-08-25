@@ -1,0 +1,34 @@
+<div class="section">
+    <div class="basys">Basys</div>
+    <div class="typewriter">
+    <div class="typewriter-text">Beratungsgesellschaft für angewandte Systemforschung</div>
+    </div>
+</div>
+
+
+<section class="countli" style="background-color: #f2f2f2">
+    <div class="container number" style="background-color: #f2f2f2">
+    
+        
+            <div class="padding" style="padding-top: 5vw">
+                <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12" style="text-align: center">
+                <i class="fas fa-book" style="font-size: 50px"></i><br>
+                <span class="counter">10000</span><span class="plus">+</span>
+                <p class="text-icon">Projekte</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12" style="text-align: center">
+              <i class="fas fa-map-marker-alt" style="font-size: 50px"></i><br>
+              <span class="counter" style="text-align: center">50</span><span class="plus">+</span>
+              <p class="text-icon">Jahre</p>
+
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12" style="text-align: center">
+              <i class="fas fa-cogs" style="font-size: 50px"></i><br>
+              <span class="counter" style="text-align: center">300</span><span class="plus">+</span>
+              <p class="text-icon">Systeme</p>
+            </div>
+</div>
+</div>       
+    </div>
+    </section>

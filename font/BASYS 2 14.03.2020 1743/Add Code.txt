@@ -1,0 +1,22 @@
+<div class="section">
+    <div class="basys">Basys</div>
+    <div class="typewriter">
+    <div class="typewriter-text">Beratungsgesellschaft für angewandte Systemforschung</div>
+    </div>
+</div>
+
+        <p>Die Arbeiten innerhalb der Gesundheitssysteme erstrecken sich auf alle Sektoren des Gesundheitswesens. Internationale Systemvergleiche, Politik, Organisation und Verwaltung, Finanzierung, Benchmarking, Qualit&auml;tssicherung, Analyse und (Preis-) Vergleich von medizinischen Leistungen, Analyse von Arzneimittelm&auml;rkten, Gesundheitsberichterstattung, Analyse von Geb&uuml;hrenordnungen und rechtliche Regelungen sind dabei zentrale Themenfelder.</p>
+                <p>Im Rahmen der Sozialsysteme liegt der Schwerpunkt auf der Analyse von sozialen Sicherungssystemen, insbesondere der Kranken- und Pflegeversicherung.</p>
+                <p>Besch&auml;ftigungspolitik, Arbeitslosigkeit, Arbeitsunf&auml;higkeit, Gesundheit und Sicherheit am Arbeitsplatz sind wesentliche Fragestellungen im Bereich der Wirtschaftssysteme.</p>
+                <p>BASYS ber&auml;t die Europ&auml;ische Union, die Weltbank, die OECD (Organisation for Economic Cooperation and Development), die WHO (World Health Organisation), Ministerien und Organisationen in Europa, Afrika, Asien und Amerika.</p>
+                <p>Das BASYS- Team gew&auml;hrleistet Qualit&auml;t, Kompetenz und Unabh&auml;ngigkeit der Beratung.</p>
+                <p>Schwerpunkte der Beratung und Forschung von BASYS sind:</p>
+                <ul>
+                <li>Entwicklung und Analysen von Finanzierungskonzepten</li>
+                <li>Erhebung, Aufbereitung, Zusammenf&uuml;hrung von Daten</li>
+                <li>Erstellung von Informationssystemen</li>
+                <li>Evaluationsstudien, Kosten-Wirksamkeits-Analysen</li>
+                <li>Durchf&uuml;hrung von Strukturanalysen, Simulationsstudien, Bedarfsermittlung und -prognosen</li>
+                <li>Entwicklung und Durchf&uuml;hrung von Trainingsprogrammen</li>
+                <li>Organisation und Durchf&uuml;hrung wissenschaftlicher Veranstaltungen (Kongresse, Tagungen, Seminare, Workshops und Studienreisen)</li>
+                </ul>
