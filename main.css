@@ -341,9 +341,10 @@ position:absolute;
     .logo_basys {
         visibility: visible;
     }
-   .mobile-footer {
+ 
+    .mobile_kontakt {
         display: block;
-    }   
+    }
      .page-footer {
         padding: 0px 0 0px;
     }
